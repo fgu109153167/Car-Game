@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     GameObject car;              // 用來儲存汽車物件
     GameObject flag;             // 用來儲存旗子物件
     GameObject distance;         // 用來儲存UI文字物件
+    GameObject score;            // 用來儲存分數文字物件
 
     void Start() // 將場景中的物件放到已宣告的各個物件中
     {
