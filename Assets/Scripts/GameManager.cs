@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
         //算分數
         float ScoreNumber = 100 / length;
         //將分數顯示在UI上
+        if (ScoreNumber <= 0)
+            ScoreNumber = 0;
         score.GetComponent<Text>().text = "分數 " + ScoreNumber.ToString("F2") + "分";
     }
 }
